@@ -61,7 +61,7 @@ class App extends Component {
 
                         return (
                           <li key={node.id}>
-                            <a href={node.url}>{node.name}</a>
+                            <a href={node.url} target="_blank" rel="noopener noreferrer">{node.name}</a>
                           </li>
                         )
 
